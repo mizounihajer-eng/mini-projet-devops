@@ -39,4 +39,4 @@ jobs:
         run: docker build -t mizounihajer-eng/mini-projet-devops:${{ github.sha }} .
 
       - name: Push image
-        run: docker push hajermiz/mini-projet-devops:${{ github.sha }
+        run: docker push hajermiz/mini-projet-devops:${{ github.sha }}
